@@ -1,0 +1,6 @@
+{
+  "name": "webpack",
+  "version": "4.31.0",
+  "license": "MIT",
+  "main": "lib/webpack.js"
+}
