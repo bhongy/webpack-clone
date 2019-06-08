@@ -1,0 +1,14 @@
+{
+  "include": ["main.ts", "src/**/*.ts"],
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
