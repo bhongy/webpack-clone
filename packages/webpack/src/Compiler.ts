@@ -4,7 +4,7 @@ import {
   AsyncSeriesHook,
   AsyncParallelHook,
 } from 'tapable';
-import Compilation from './Compilation';
+import Compilation from '@webpack/Compilation';
 
 // TEMPORARY
 interface Stats {}
@@ -18,10 +18,16 @@ class CompilationParams {
 
 // module internal
 namespace Compiler {
-  export interface Context {}
+  export interface Context {
+    // TEMPORARY
+    outputFileSystem: null;
+		inputFileSystem: null;
+  }
+
   export interface Props {
     watchMode: boolean;
   }
+
   export interface State {
     running: boolean;
   }

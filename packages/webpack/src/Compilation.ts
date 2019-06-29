@@ -3,5 +3,7 @@ namespace Compilation {
 }
 
 export default class Compilation {
+  name: undefined | string = undefined;
   hooks: Compilation.Hooks = {};
+  constructor() {}
 }
